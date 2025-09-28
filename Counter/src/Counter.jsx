@@ -20,7 +20,7 @@ function Counter() {
     return (
         <div className="counterContainer">
 
-            <p className="displayCounter">{count}</p>
+            <p className="displayCounter" style={{color: count > 0 ? 'green' : count < 0 ? 'red' : 'black'}}>{count}</p>
 
             <button className="counterButtons" onClick={decrement}>Decrement</button>
             <button className="counterButtons" onClick={reset}>Reset</button>
