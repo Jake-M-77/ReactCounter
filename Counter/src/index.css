@@ -1,0 +1,30 @@
+.counterContainer{
+  text-align: center;
+}
+
+
+.displayCounter{
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.counterButtons{
+  font-size: 20px;
+  padding: 5px;
+  max-width: 120px;
+  margin: 5px 5px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color:darkcyan;
+  color: white;
+}
+
+.counterButtons:hover {
+  background-color: rgb(0, 196, 196);
+  cursor: pointer;
+
+}

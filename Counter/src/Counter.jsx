@@ -18,7 +18,7 @@ function Counter() {
     }
 
     return (
-        <div>
+        <div className="counterContainer">
 
             <p className="displayCounter">{count}</p>
 
